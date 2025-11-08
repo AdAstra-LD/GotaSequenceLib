@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Track = Sanford.Multimedia.Midi.Track;
 
 namespace GotaSequenceLib {
@@ -17,7 +16,7 @@ namespace GotaSequenceLib {
         /// <summary>
         /// Random.
         /// </summary>
-        private static Random _rand = new Random();
+        private static readonly Random _rand = new Random();
 
         /// <summary>
         /// Create an MIDI from sequence commands.
